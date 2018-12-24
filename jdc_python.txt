@@ -1,0 +1,86 @@
+jdc
+    --version
+    --help
+    --quiet
+    --output {json}
+    -v --version
+
+    configure
+        add
+            --profile 配置名
+        delete
+            --profile 配置名
+        show-current
+        show-all
+        use
+            --profile 配置名
+    vm
+        associate-elastic-ip: 为云主机主网卡下的主内网IP绑定弹性公网IP。<br>; 一台云主机只能绑定一个弹性公网IP(主网卡)，若主网卡已存在弹性公网IP，会返回错误。<br>;
+            --elastic-ip-id
+            --headers
+            --help
+            -h
+            --input-json
+            --instance-id
+            --region-id
+        attach-disk
+        attach-network-interface
+        copy-images
+        create-image
+        create-instances
+        create-keypair
+        delete-image
+        delete-instance
+        delete-keypair
+        describe-image
+        describe-image-constraints
+        describe-image-constraints-batch
+        describe-image-members
+        describe-images
+        describe-instance
+        describe-instance-private-ip-address
+        describe-instances
+        describe-instance-status
+        describe-instance-types
+        describe-instance-vnc-url
+        describe-keypairs
+        describe-quotas
+        detach-disk
+        detach-network-interface
+        disassociate-elastic-ip
+        generate-skeleton
+        import-keypair
+        modify-image-attribute
+        modify-instance-attribute
+        modify-instance-disk-attribute
+        modify-instance-network-attribute
+        modify-instance-password
+        reboot-instance
+        rebuild-instance
+        resize-instance
+        share-image
+        start-instance
+        stop-instance
+        un-share-image
+    mps
+    cps
+    rds
+    jde
+    vpc
+    xdata
+    mongodb
+    streambus
+    ipanti
+    baseanti
+    datastar
+    redis
+    nc
+    monitor
+    iam
+    disk
+    cr
+    streamcomputer
+    sop
+    clouddnsservice
+    vm
+    oss

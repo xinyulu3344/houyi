@@ -1,0 +1,18 @@
+{
+	"default": {
+		"access-key": "EE35CF02BF28533628A64594A8641E04",
+		"endpoint": "www.jdcloud-api.com",
+		"region-id": "cn-north-1",
+		"scheme": "https",
+		"secret-key": "8E110D81823C9C5F1A773FCC54415DC8",
+		"timeout": 20
+	},
+	"test": {
+		"access-key": "EE35CF02BF28533628A64594A8641E04",
+		"endpoint": "www.jdcloud-api.com",
+		"region-id": "cn-east-1",
+		"scheme": "https",
+		"secret-key": "8E110D81823C9C5F1A773FCC54415DC8",
+		"timeout": 20
+	}
+}
